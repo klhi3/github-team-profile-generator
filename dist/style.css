@@ -1,3 +1,49 @@
-.red {
-    color: red;
+body{
+    /* background-color: yellow; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 60px; 
+  }
+
+.cusJumbo{
+    height: 20px;
+    width: 100%;
+}
+
+.cusHeader{
+    padding: 5px;
+    margin: 0px;
+    font-weight: bold;
+}
+.cusHeader p{
+    padding: 0px;
+    margin: 1px;
+}
+
+
+
+.cusCard{
+    box-shadow: 7px 7px 3px grey;
+    font-size: small;
+    margin: 10px;
+}
+
+.cusCardbody{
+    padding: 0px;
+    margin: 0px;
+    border-width: 0;
+    background-color: rgb(233, 232, 232);
+}
+.cusDetail {
+    margin: 10px 10px 10px 10px; 
+}
+.cusItem{
+    padding: 5px;
+    /* border-width: 5px; */
+    border-color: lightgrey;
+    font-size:small;
 }

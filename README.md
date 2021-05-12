@@ -50,6 +50,8 @@ Successfully created index.html!
 ![](./assets/images/page.gif)
 
 
+![Template](./assets/images/template.gif)
+
 
 ## links
 * [Jest](https://www.npmjs.com/package/jest) for running the unit tests

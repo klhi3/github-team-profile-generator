@@ -1,0 +1,27 @@
+{
+  "name": "HW10-TeamProfileGenerator",
+  "version": "1.0.0",
+  "description": "build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and a unit test for every part of code and ensure that it passes each test using Javascript, Node.js, OOP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klhi3/github-team-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klhi3/github-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/klhi3/github-team-profile-generator#readme"
+}

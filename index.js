@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('src');
+const util = require('util');
 
 const generateMarkdown = require('./src/generateMarkdown.js');
 const fileName = 'index.html';
@@ -43,7 +43,7 @@ const questions = [
                 name: 'Add Intern team member',
                 value: ''           
             },
-            inquirer.Separator(),
+            new inquirer.Separator(),
             {
                 key: 'f',
                 name: 'Finish building my team',
@@ -88,12 +88,36 @@ const promptUser = () => {
     return inquirer.prompt(questions);
 };
 
+
+// FUNCTIONS
+// function replacePlaceholder(string, placeholder, newValue) {
+//     return string.replace(`!!! ${placeholder} !!!`, newValue)
+//   }
+function replacePlaceholder(string, answers) {
+
+    return string.replace(`!!! ${placeholder} !!!`, answers)
+  }
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, answers) {
-    fs.writeFile(fileName, answers, err =>{
+
+    let templateString = fs.readFileSync("template.html","utf8");
+
+    // templateString = replacePlaceholder(templateString, "name", data.name);
+    templateString = replacePlaceholder(templateString, answers);
+
+    // create index.html from template file
+    fs.writeFile(fileName, templateString, err =>{
         if (err) return console.log("writeToFile error: "+err);
         else console.log("Successfully created "+fileName+"!")
     });
+    
+    // fs.writeFile(fileName, answers, err =>{
+    //     if (err) return console.log("writeToFile error: "+err);
+    //     else console.log("Successfully created "+fileName+"!")
+    // });
+
+
 }
 const writeFileAsync = util.promisify(writeToFile);
 
