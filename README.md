@@ -51,7 +51,7 @@ Successfully created index.html!
 
 
 
-template:
+template:<br>
 <img src="./assets/images/template.gif" width="200" />
 
 
