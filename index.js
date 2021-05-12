@@ -29,59 +29,18 @@ const questions = [
         message: 'What is Manager\'s office number?',
     },  
     {
-        type: 'expand',
+        type: 'recursive',
         name: 'manager_choice',
-        message: 'Please select next step',
-        choices:[
-            {
-                key: 'e',
-                name: 'Add Engineer team member',
-                value: ''
-            },
-            {
-                key: 'i',
-                name: 'Add Intern team member',
-                value: ''           
-            },
-            new inquirer.Separator(),
-            {
-                key: 'f',
-                name: 'Finish building my team',
-                value: ''           
-            },
-        ]
+        message: 'Please select',
+        choices:['Add Engineer','Add Intern','Finish building my team'],
+        prompts:[
+            
+
+
+
+        ],
     },
-    // {
-    //     type: 'input',
-    //     name: 'installation',
-    //     message: 'How to install?',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'usage',
-    //     message: 'Describe usage?',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'constribution',
-    //     message: 'Provide any contribution?',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'tests',
-    //     message: 'Tests',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'questions',
-    //     message: 'Questions',
-    // },
-    // {
-    //     type: 'checkbox',
-    //     message: 'License for your project?',
-    //     name: 'license',
-    //     choices: ['MIT', 'MPL'],
-    // },
+  
 ];
 
 const promptUser = () => {
