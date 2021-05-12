@@ -51,6 +51,8 @@ Successfully created index.html!
 
 
 ![Template](./assets/images/template.gif)
+<template>
+<img src="./assets/images/template.gif" width="200" />
 
 
 ## links
