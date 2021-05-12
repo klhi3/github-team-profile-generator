@@ -13,7 +13,7 @@
 7. select the engineer option :  the engineer’s name, ID, email, and GitHub username,  and go to the menu
 8. select the intern option :  the intern’s name, ID, email, and school, and go back to the menu
 9.  decide to finish building my team 
-10.  exit the application, and the HTML is generated  [index.html](./index.html)
+10.  exit the application, and the HTML is generated  [index.html](https://klhi3.github.io/github-team-profile-generator/)
 
 
 Directory: 
