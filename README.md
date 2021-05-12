@@ -50,8 +50,8 @@ Successfully created index.html!
 ![](./assets/images/page.gif)
 
 
-![Template](./assets/images/template.gif)
-<template>
+
+template:
 <img src="./assets/images/template.gif" width="200" />
 
 
