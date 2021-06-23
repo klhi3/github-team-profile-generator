@@ -1,4 +1,4 @@
-# GitHub Team Profile Generator
+# Team Profile Generator
    
  build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and a unit test for every part of code and ensure that it passes each test using Javascript, Node.js, OOP
 
