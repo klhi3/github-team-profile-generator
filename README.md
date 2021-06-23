@@ -47,12 +47,7 @@ Successfully created index.html!
   
 ## Portfolio
 
-![](./assets/images/page.gif)
-
-
-
-* template:<br>
-<img src="./assets/images/template.gif" width="100" />
+<img src="./assets/images/page.gif" width="100" />
 
 
 ## links
