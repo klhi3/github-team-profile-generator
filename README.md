@@ -47,7 +47,7 @@ Successfully created index.html!
   
 ## Portfolio
 
-<img src="./assets/images/page.gif" width="100" />
+<img src="./assets/images/page.gif" width="500" />
 
 
 ## links
