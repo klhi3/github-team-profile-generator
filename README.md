@@ -37,12 +37,26 @@ run following command:
 
 ```bash
 node index.js
-```
+? What is Manager's name? Grace
+? What is Manager's id? 1
+? What is Manager's email? grace@thecompany.com
+? What is Manager's office number? 1010
 
+>>>>>>> add Employee to the team:
+? Add a team member's role (Use arrow keys)
+> Engineer
+  Intern
 
-```bash
-$ node index.js
-Successfully created index.html!
+>>>>>>> add Employee to the team:
+? Add a team member's role Engineer
+? What is employee's name? David
+? What is employee's id? 2
+? What is employee's email? david@thecompany.com
+? What is engineer's github username? david09
+? Would you like to add more team member? Yes
+
+>>>>>>>> Successfully created index.html!
+
 ```
   
 ## Portfolio
