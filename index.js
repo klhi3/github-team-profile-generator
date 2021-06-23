@@ -120,7 +120,7 @@ const writeToFile = (data) => {
     // create index.html from template file
     fs.writeFile("./dist/index.html", data, err =>{
         if (err) return console.log("writeToFile error: "+err);
-        else console.log("Successfully created "+fileName+"!")
+        else console.log("\n>>>>>>>> Successfully created "+fileName+"!")
     });
     
 }

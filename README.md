@@ -47,6 +47,10 @@ Successfully created index.html!
   
 ## Portfolio
 
+* run in terminal <br>
+<img src="./assets/images/deploy.gif" width="500" />
+
+* index.html created<br>
 <img src="./assets/images/page.gif" width="500" />
 
 
