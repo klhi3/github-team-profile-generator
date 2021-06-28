@@ -63,9 +63,14 @@ node index.js
 
 in package.json :
 
+```bash
  "scripts": {
     "test": "jest --watch"
   },
+  
+```
+     
+to run :
 
 ```bash
 
