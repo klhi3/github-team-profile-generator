@@ -15,5 +15,5 @@ test('Test: get intern school', () => {
 test('Test: get role of intern', () => {
     const intern = new Intern('Lara', 17, 'lara@lara.com', 'UV');
 
-    expect(intern.getRole()).toEqual("Intern");
+    expect(intern.getRol()).toEqual("Intern");
 });

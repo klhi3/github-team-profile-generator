@@ -9,11 +9,11 @@ test('Test: create an manager object', () => {
 test('Test: get manager office number', () => {
     const manager = new Manager('Lara', 17, 'lara@lara.com', 1012);
 
-    expect(manager.getOfficeNumber()).toEqual(expect.stringContaining(manager.officeNumber.toString()));
+    expect(manager.getOfficeNumber()).toEqual(1012);
 });
 
 test('Test: get role of manager', () => {
     const manager = new Manager('Lara', 17, 'lara@lara.com', 1012);
 
-    expect(manager.getRole()).toEqual("Manager");
+    expect(manager.getRol()).toEqual("Manager");
 });

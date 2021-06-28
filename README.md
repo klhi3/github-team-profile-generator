@@ -13,7 +13,7 @@
 7. select the engineer option :  the engineer’s name, ID, email, and GitHub username,  and go to the menu
 8. select the intern option :  the intern’s name, ID, email, and school, and go back to the menu
 9.  decide to finish building my team 
-10.  exit the application, and the HTML is generated  [index.html](https://klhi3.github.io/github-team-profile-generator/)
+10.  exit the application, and the HTML is generated  [index.html](https://klhi3.github.io/github-team-profile-generator/dist/index.html)
 
 
 Directory: 
@@ -24,7 +24,7 @@ __tests__/			// jest tests
   Engineer.test.js
   Intern.test.js
   Manager.test.js
-dist/               // rendered output (HTML) and CSS style sheet
+dist/       // rendered output (HTML) and CSS style sheet
 lib/				// classes
 src/				// template helper code
 index.js			// runs the application
@@ -33,7 +33,7 @@ index.js			// runs the application
 
 ## Run
 
-run following command: 
+run following command:  node index.html 
 
 ```bash
 node index.js
@@ -58,7 +58,25 @@ node index.js
 >>>>>>>> Successfully created index.html!
 
 ```
-  
+
+## test
+
+in package.json :
+
+ "scripts": {
+    "test": "jest --watch"
+  },
+
+```bash
+
+$ npm test
+
+> HW10-TeamProfileGenerator@1.0.0 test
+> jest --watch
+
+```
+
+
 ## Portfolio
 
 * run in terminal <br>
@@ -66,6 +84,9 @@ node index.js
 
 * index.html created<br>
 <img src="./assets/images/page.gif" width="500" />
+
+* tested <br>
+<img src="./assets/images/test.png" width="500" />
 
 
 ## links
